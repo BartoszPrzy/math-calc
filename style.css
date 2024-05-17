@@ -1,0 +1,29 @@
+/* hide arrows in WebKit */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* hide arrows in FireFox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input {
+    width: 40px;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    align-items: center;
+    border: 3px solid #3c3b3b8f;
+    border-radius: 20px
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
