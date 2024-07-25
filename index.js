@@ -16,7 +16,11 @@ document.addEventListener("DOMContentLoaded", function() {
             result = num1 + num2;
         } else if (operation === "subtract") {
             result = num1 - num2;
-        }
+        } else if (operation === "multiplication") {
+            result = num1 * num2;
+        } else if (operation === "division") {
+            result = num1 / num2;
+        };
 
         resultDiv.textContent = `Result: ${result}`;
     }
